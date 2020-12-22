@@ -45,7 +45,6 @@ jobs:
           command: |
             cd frontend/
             npm i
-            exit 1
       - save_cache:
           paths: [frontend/node_modules]
           key: frontend-build
